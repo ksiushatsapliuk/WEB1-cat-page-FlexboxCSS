@@ -50,7 +50,7 @@ body, ul {
   padding: 20px;
   box-shadow: 0 8px 25px rgba(26, 13, 38, 0.5);
   font-size: clamp(14px, 2.5vw, 18px);
-  flex: 0 0 250px;
+  flex: 0 0 270px;
   min-width: 150px;
   word-wrap: break-word;
   word-break: break-word;
@@ -324,7 +324,7 @@ body, ul {
 .item6 {
   background: linear-gradient(145deg, rgb(140, 100, 170), rgb(160, 120, 180));
   padding: 25px;
-  min-height: 120px;
+  min-height: 140px;
   min-width: 0;
   display: flex;
   flex-direction: row;
