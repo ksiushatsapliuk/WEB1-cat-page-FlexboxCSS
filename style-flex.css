@@ -99,18 +99,16 @@ body, ul {
 
 .item2 {
   background: linear-gradient(145deg, rgb(150, 110, 180), rgb(180, 140, 200));
-  min-height: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  flex: 0 0 auto;
+  gap: 20px;
+  padding: 25px;
+  min-height: 60px;
   min-width: 0;
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(150, 110, 180, 0.3);
   border: 2px solid rgba(150, 110, 180, 0.5);
-  padding: 25px;
-  gap: 20px;
 }
 
 .item2 img {
@@ -129,12 +127,7 @@ body, ul {
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
   letter-spacing: 2px;
   text-transform: capitalize;
-  padding: 10px 20px;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  word-break: break-word;
-  flex: 1 1 auto;
-  margin-left: auto;
+  flex: 1;
 }
 
 .content-wrapper {
@@ -203,7 +196,6 @@ body, ul {
   height: auto;
   min-width: 0;
   display: block;
-  margin-bottom: 20px;
 }
 
 .item4 a {
@@ -357,15 +349,9 @@ body, ul {
   text-shadow: none;
   border: 2px solid #2D1B4E;
   overflow-wrap: break-word;
-  max-width: 500px;
   min-width: 0;
   word-break: break-word;
-}
-
-.footer-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex: 1;
 }
 
 .item6 p {
@@ -374,7 +360,7 @@ body, ul {
   font-family: 'Segoe UI', sans-serif;
   font-weight: 700;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin: 0 0 10px 0;
+  margin: 0;
   background: rgba(26, 13, 38, 0.7);
   padding: 10px 15px;
   border: 2px solid rgba(255, 255, 255, 0.3);
