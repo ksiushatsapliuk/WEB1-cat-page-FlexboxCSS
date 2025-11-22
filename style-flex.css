@@ -432,27 +432,30 @@ body, ul {
   }
   
   .navbar {
-    order: 5;
+    order: 1;
     flex-basis: auto;
     padding: 10px;
   }
   
   .navbar ul {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     gap: 5px;
   }
   
   .navbar a {
-    padding: 8px 12px;
-    font-size: 12px;
-    min-width: 90px;
-    flex: 1;
+    padding: 12px 20px;
+    font-size: 14px;
+    min-width: auto;
+    flex: none;
+    transform: none !important;
+  }
+  
+  .navbar a:hover {
+    transform: none !important;
   }
   
   .right-content {
-    order: 1;
+    order: 2;
   }
   
   .item2 {
@@ -467,7 +470,7 @@ body, ul {
   }
   
   .item4 {
-    order: 4;
+    order: 2;
     flex-basis: auto;
     padding: 15px;
   }
